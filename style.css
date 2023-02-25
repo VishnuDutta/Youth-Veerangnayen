@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bitter', serif;
+}
+
+.container {
+    max-width: 1260px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* <!-- ----------------------------------------HEADER SECTION STARTS--------------------------------------- --> */
+
+
+.main_heading {
+    background-color: #e0eaea;
+}
+
+.mainrow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftimage img {
+    width: 200px;
+    height: auto;
+}
+
+.headermenu ul {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headermenu ul li {
+    list-style: none;
+    padding: 27px 35px;
+    font-size: 20px;
+}
+
+.headermenu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: brown;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.headermenu ul a {
+    text-decoration: none;
+}
+
+
+/* <!-- ----------------------------------------HEADER SECTION ENDS--------------------------------------- --> */
+
+
+
+
+/* <!-- ----------------------------------------MAIN BANNNER SECTION STARTS--------------------------------------- --> */
+
+.main_banner {
+    background-image: url(/Assets/banner.png);
+    height: 566px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main_banner_content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+.banner_main_heading {
+    margin-bottom: 20px;
+}
+
+.banner_main_heading h2 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.banner_main_paragraph {
+    margin-bottom: 20px;
+}
+
+.banner_main_paragraph p {
+    font-size: 25px;
+}
+
+.button_section {
+    display: flex;
+}
+
+.button_section_button {
+    margin-right: 10px;
+}
+
+.button_section_button .contact_us_button {
+    background-color: #2a6efd;
+}
+
+.button_section_button button {
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff5e62;
+    border: #ff5e62;
+}
+
+.button_section_button button a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* <!-- ----------------------------------------MAIN BANNNER SECTION ENDS--------------------------------------- --> */
+
+/* <----------------------------------------WHO WE ARE SECTION STARTS--------------------------------------- */
+.who_we_are_content {
+    margin: 30px 0px;
+}
+
+.who_we_are_heading {
+    margin-bottom: 10px;
+}
+
+.who_we_are_heading h3 {
+    font-size: 40px;
+}
+
+.who_we_are_paragraph {
+    margin-bottom: 25px;
+}
+
+.who_we_are_paragraph p {
+    font-size: 18px;
+}
+
+.who_we_are_button button {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #ff5e62;
+    border: #ff5e62;
+}
+
+.who_we_are_button button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ----------------------------------------WHO WE ARE SECTION ENDS--------------------------------------- */
+
+
+/* <!-- ----------------------------------------ANALYTICS SECTION ENDS--------------------------------------- --> */
+.analytics {
+    background-image: url(/Assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.analytics_content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.volunteers_section img {
+    height: 128px;
+    width: 128px;
+}
+
+.volunteers_section h6 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.volunteers_section p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/* <!-- ----------------------------------------ANALYTICS SECTION STARTS------------------------------------- --> */
+
+/* <!-- ----------------------------------------WHAT WE DO SECTION STARTS--------------------------------------- --> */
+.what_we_do_content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.what_we_do_content_container {
+    width: 70%;
+}
+
+.what_we_do_content_container h6 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.what_we_do_content_container p {
+    font-size: 20px;
+}
+
+.what_we_do_content_container button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ff5e62;
+    border: #ff5e62;
+    border-radius: 15px;
+}
+
+.what_we_do_content_container button a {
+    text-decoration: none;
+}
+
+.what_we_do_content_image img {
+    height: 300px;
+    width: 300px;
+}
+
+/* <!-- ----------------------------------------WHAT WE DO SECTION ENDS--------------------------------------- --> */
