@@ -66,7 +66,7 @@
 /* <!-- ----------------------------------------MAIN BANNNER SECTION STARTS--------------------------------------- --> */
 
 .main_banner {
-    background-image: url(/Assets/banner.png);
+    background-image: url(Assets/banner.png);
     height: 566px;
     width: 100%;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@
 
 /* <!-- ----------------------------------------ANALYTICS SECTION ENDS--------------------------------------- --> */
 .analytics {
-    background-image: url(/Assets/banner.png);
+    background-image: url(Assets/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
